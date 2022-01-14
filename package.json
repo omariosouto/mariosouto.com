@@ -7,9 +7,10 @@
     "packages/*"
   ],
   "scripts": {
+    "web": "yarn workspace web",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "dev:web": "npm run dev --workspace=web",
+    "dev:web": "yarn web dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
