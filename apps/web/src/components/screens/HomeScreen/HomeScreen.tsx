@@ -1,11 +1,16 @@
 import { demo } from "@omariosouto/commons";
+import { Box, Text } from '@skynexui/components';
 
 export function HomeScreen() {
     return (
-      <div>
-        <h1>mariosouto.com</h1>
-        <p>Commons: @omariosouto/{demo}</p>
-      </div>
+      <Box>
+        <Text variant='heading1' tag="h1">
+          mariosouto.com
+        </Text>
+        <Text variant='body2' tag="p">
+          Commons: @omariosouto/{demo}
+        </Text>
+      </Box>
     );
   }
   
