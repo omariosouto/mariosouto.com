@@ -20,8 +20,11 @@ Monorepo for my personal projects, also used as a playground for new ideas relat
 
 ## Tools used here
 
-### Infra & CI/CD
+### Decoration
 - [Shields.io](https://shields.io)
+
+### Infra & CI/CD
+- [Vercel](http://vercel.com/home)
 - [Turborepo](https://turborepo.org)
 - [Codeclimate](https://codeclimate.com/github/omariosouto/mariosouto.com)
 
