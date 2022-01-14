@@ -1,10 +1,6 @@
-import { demo } from "@omariosouto/commons";
+import { websitePageHOC } from '@src/components/wrappers/websitePageHOC/websitePageHOC';
+import { HomeScreen } from '@src/components/screens/HomeScreen/HomeScreen';
 
-export default function Web() {
-  return (
-    <div>
-      <h1>mariosouto.com</h1>
-      <p>Commons: @omariosouto/{demo}</p>
-    </div>
-  );
-}
+export default websitePageHOC(HomeScreen)();
+
+
