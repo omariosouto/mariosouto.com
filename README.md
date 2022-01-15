@@ -67,5 +67,5 @@ yarn libs:unlink && yarn install && yarn dev:web
 
 ### Web
 - [ReactJS](https://pt-br.reactjs.org)
-- [NextJS](https://nextjs.org)
-- [SkynexUI](https://skynexui.dev)
+   - [NextJS](https://nextjs.org)
+   - [SkynexUI](https://skynexui.dev)
