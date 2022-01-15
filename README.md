@@ -4,6 +4,15 @@
 
 Monorepo for my personal projects, also used as a playground for new ideas related to Front End and other projects in general.
 
+## Getting started
+
+- Clone the repository
+- Install the dependencies:
+
+```sh
+yarn install
+```
+
 ## Development
 
 - For normal dev mode for my website, just run:
