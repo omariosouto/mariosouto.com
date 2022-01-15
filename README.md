@@ -4,6 +4,34 @@
 
 Monorepo for my personal projects, also used as a playground for new ideas related to Front End and other projects in general.
 
+## Development
+
+- For normal dev mode for my website, just run:
+
+```sh
+yarn dev:web
+```
+
+- For devmode and debug `@skynexui/components` inside my website run:
+
+> In one terminal
+
+```sh
+yarn libs:build:watch
+```
+
+> And in another terminal window
+
+```sh
+yarn link @skynexui/components && yarn dev:web
+```
+
+> For remove the debug mode, just run:
+
+```sh
+yarn libs:unlink && yarn install && yarn dev:web
+```
+
 
 ## Projects in this monorepo
 | Status | Project |

@@ -7,7 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "libs:update": "cd libs/@skynexui/components && git pull",
+    "libs:unlink": "rm -rf ~/.config/yarn/link/*",
+    "prelibs:build:watch": "cd libs/@skynexui/components && git pull",
+    "libs:build:watch": "yarn libs:unlink && cd libs/@skynexui/components && yarn && yarn build:watch",
     "web": "yarn workspace web",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
