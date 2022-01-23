@@ -10,10 +10,12 @@
     "libs:unlink": "rm -rf ~/.config/yarn/link/*",
     "prelibs:build:watch": "cd libs/@skynexui/components && git pull",
     "libs:build:watch": "yarn libs:unlink && cd libs/@skynexui/components && yarn && yarn build:watch",
+    "assets": "yarn workspace assets-devsoutinho",
+    "dev:assets": "yarn assets dev",
     "web": "yarn workspace web",
+    "dev:web": "yarn web dev",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "dev:web": "yarn web dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
