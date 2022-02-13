@@ -4,10 +4,10 @@ import { SkynexUIProvider } from '@src/components/wrappers/SkynexUIProvider/Skyn
 
 export function websitePageHOC(Component: React.ElementType, allProps = {}) {
     const { ...props } = allProps;
-    return () => {
+    return (componentProps) => {
         return (
             <SkynexUIProvider>
-                <Component {...props} />
+                <Component {...props} {...componentProps} />
             </SkynexUIProvider>
         )
     };
