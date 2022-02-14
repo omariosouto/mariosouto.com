@@ -39,16 +39,18 @@ export function HomeScreen(props: HomeScreenProps) {
           color: ${theme.colors.neutral.x000};
         }
       `}</style>
-      <Image
-        styleSheet={{
-          width: '200px',
-          height: '200px',
-          marginHorizontal: 'auto',
-          marginVertical: theme.space.x4,
-          borderRadius: '100%',
-        }}
-        src='https://github.com/omariosouto.png' alt='Minha foto de perfil'
-      />
+      <a href="/">
+        <Image
+          styleSheet={{
+            width: '200px',
+            height: '200px',
+            marginHorizontal: 'auto',
+            marginVertical: theme.space.x4,
+            borderRadius: '100%',
+          }}
+          src='https://github.com/omariosouto.png' alt='Minha foto de perfil'
+        />
+      </a>
 
       <Text tag='h1' variant='heading2' styleSheet={{ color: theme.colors.primary.x500, lineHeight: '1' }}>
         Mario Souto
