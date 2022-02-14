@@ -86,7 +86,7 @@ export function HomeScreen(props: HomeScreenProps) {
             gap: theme.space.x4,
           }}
         >
-          {props.videos?.map(({ title, thumbnail, url }) => (
+          {props.videos.map(({ title, thumbnail, url }) => (
             <Box
               key={title}
               styleSheet={{
