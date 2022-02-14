@@ -15,10 +15,13 @@ export function NewsletterForm() {
         padding: theme.space.x8,
       }}
     >
-      <Text tag='h2' variant='heading4' styleSheet={{ marginBottom: theme.space.x2 }}>
+      <Text tag='h2' variant='heading4' styleSheet={{ marginBottom: theme.space.x1 }}>
         WeekLinks do Dev Soutinho
       </Text>
-      <form action="http://newsletter.mariosouto.com/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+      <Text tag='h2' variant='body1' styleSheet={{ color: theme.colors.neutral.x200, marginBottom: theme.space.x2 }}>
+        Assine e receba toda semana links que fizeram a minha semana de alguma forma 😋
+      </Text>
+      <form action="https://newsletter.mariosouto.com/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
         <div className="revue-form-group">
           <label htmlFor="member_email">E-mail</label>
           <TextField
