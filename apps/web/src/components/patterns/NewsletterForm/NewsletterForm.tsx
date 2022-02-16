@@ -21,7 +21,7 @@ export function NewsletterForm() {
       <Text tag='h2' variant='body1' styleSheet={{ color: theme.colors.neutral.x200, marginBottom: theme.space.x2 }}>
         Assine e receba toda semana links que fizeram a minha semana de alguma forma 😋
       </Text>
-      <form action="https://newsletter.mariosouto.com/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+      <form action="https://newsletter.soutinho.dev/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
         <div className="revue-form-group">
           <label htmlFor="member_email">E-mail</label>
           <TextField
